@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A0F99F9245977D500D56E54 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F99F8245977D500D56E54 /* MapView.swift */; };
 		6A6430FF24584BB90053DAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6430FE24584BB90053DAF5 /* AppDelegate.swift */; };
 		6A64310124584BB90053DAF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64310024584BB90053DAF5 /* SceneDelegate.swift */; };
 		6A64310324584BB90053DAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A64310224584BB90053DAF5 /* ContentView.swift */; };
 		6A64310524584BBC0053DAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A64310424584BBC0053DAF5 /* Assets.xcassets */; };
 		6A64310824584BBC0053DAF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A64310724584BBC0053DAF5 /* Preview Assets.xcassets */; };
 		6A64310B24584BBC0053DAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A64310924584BBC0053DAF5 /* LaunchScreen.storyboard */; };
+		6A9E8FE5245C4D0600D569A3 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9E8FE4245C4D0600D569A3 /* MKPointAnnotation-Codable.swift */; };
+		6AEBF9FB245AFB3E007E0B2E /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEBF9FA245AFB3E007E0B2E /* MKPointAnnotation-ObservableObject.swift */; };
+		6AEBF9FD245AFBFA007E0B2E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEBF9FC245AFBFA007E0B2E /* EditView.swift */; };
+		6AEBF9FF245AFDB4007E0B2E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEBF9FE245AFDB4007E0B2E /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A0F99F8245977D500D56E54 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		6A6430FB24584BB90053DAF5 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6430FE24584BB90053DAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A64310024584BB90053DAF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		6A64310724584BBC0053DAF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6A64310A24584BBC0053DAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A64310C24584BBC0053DAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A9E8FE4245C4D0600D569A3 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
+		6AEBF9FA245AFB3E007E0B2E /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		6AEBF9FC245AFBFA007E0B2E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		6AEBF9FE245AFDB4007E0B2E /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				6A6430FE24584BB90053DAF5 /* AppDelegate.swift */,
 				6A64310024584BB90053DAF5 /* SceneDelegate.swift */,
 				6A64310224584BB90053DAF5 /* ContentView.swift */,
+				6A0F99F8245977D500D56E54 /* MapView.swift */,
+				6AEBF9FA245AFB3E007E0B2E /* MKPointAnnotation-ObservableObject.swift */,
+				6A9E8FE4245C4D0600D569A3 /* MKPointAnnotation-Codable.swift */,
+				6AEBF9FC245AFBFA007E0B2E /* EditView.swift */,
+				6AEBF9FE245AFDB4007E0B2E /* Result.swift */,
 				6A64310424584BBC0053DAF5 /* Assets.xcassets */,
 				6A64310924584BBC0053DAF5 /* LaunchScreen.storyboard */,
 				6A64310C24584BBC0053DAF5 /* Info.plist */,
@@ -147,7 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A6430FF24584BB90053DAF5 /* AppDelegate.swift in Sources */,
+				6A0F99F9245977D500D56E54 /* MapView.swift in Sources */,
+				6AEBF9FD245AFBFA007E0B2E /* EditView.swift in Sources */,
 				6A64310124584BB90053DAF5 /* SceneDelegate.swift in Sources */,
+				6AEBF9FF245AFDB4007E0B2E /* Result.swift in Sources */,
+				6AEBF9FB245AFB3E007E0B2E /* MKPointAnnotation-ObservableObject.swift in Sources */,
+				6A9E8FE5245C4D0600D569A3 /* MKPointAnnotation-Codable.swift in Sources */,
 				6A64310324584BB90053DAF5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
